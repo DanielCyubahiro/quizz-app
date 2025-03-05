@@ -1,0 +1,9 @@
+.header {
+    border-bottom: black solid 1px;
+    display: flex;
+    justify-content: center;
+}
+.header__title {
+    text-align: center;
+}
+
