@@ -1,6 +1,38 @@
 @import "card.css";
+
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     gap: 10px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+.about-me__profile {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 500px;
+}
+
+.about-me__icon {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    width: 100px;
+    height: 100px;
+    transform: scale(4);
+}
+
+.about-me__name {
+    position: absolute;
+    top: 150px;
+    right: 100px;
+}
+
+.about-me__description {
+    font-size: 1.2rem;
 }
