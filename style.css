@@ -1,0 +1,14 @@
+@import "css/header.css";
+/* -------------------------------------------------------- */
+/* Global Styles */
+/* -------------------------------------------------------- */
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    border: black solid 1px;
+    font-family: system-ui, sans-serif;
+}
