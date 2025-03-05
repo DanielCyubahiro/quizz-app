@@ -17,5 +17,16 @@
 .card__bookmark {
     position: absolute;
     top: -10px;
-    right: 0;
+    right: 40px;
+    width: 30px;
+    height: 30px;
+    transform: scale(2);
+}
+
+.card__button {
+    border: none;
+    background: none;
+    font-size: 2rem;
+    transform: scale(1.2);
+    width: auto;
 }
