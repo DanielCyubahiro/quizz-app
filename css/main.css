@@ -1,6 +1,51 @@
 @import "card.css";
+
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     gap: 10px;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    gap: 16px;
+    padding: 20px;
+}
+
+.about-me__profile {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.about-me__icon {
+    top: 100px;
+    left: 100px;
+    width: 70px;
+    height: 70px;
+    transform: scale(4);
+}
+
+.about-me__name {
+    top: 100px;
+    right: 100px;
+}
+
+.about-me__description {
+    font-size: 0.9rem;
+    padding: 50px;
+}
+
+.profile__button-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-items: center;
+    align-items: center;
+}
+
+.profile__question__button {
+
 }
