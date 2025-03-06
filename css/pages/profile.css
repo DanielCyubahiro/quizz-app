@@ -1,0 +1,56 @@
+.profile__container,
+.settings__container {
+    padding: 20px 40px;
+    margin-bottom: 15px;
+    border: black solid 1px;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile__image {
+    height: 70px;
+    margin-right: 50px;
+}
+
+.profile__name {
+    font-size: 1.2rem;
+}
+
+.shortcut__buttons__container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.shortcut__button {
+    width: 50%;
+    padding: 5px;
+}
+
+.settings__container {
+    padding: 3px 40px;
+    margin: 0;
+}
+
+.settings-name {
+    font-size: 1.2rem;
+}
+
+.h3 {
+    margin-bottom: 0;
+}
+.settings {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-items: center;
+    align-items: center;
+}
+
+.settings__icon {
+    /*transform: scale(4);*/
+}

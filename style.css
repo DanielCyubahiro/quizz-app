@@ -1,22 +1,4 @@
-@import "css/header.css";
-@import "css/footer.css";
-@import "css/main.css";
-/* -------------------------------------------------------- */
-/* Global Styles */
-/* -------------------------------------------------------- */
 
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-size: 70px;
-    font-family: 'Atma', cursive;
-}
-
-.icon-active {
-    fill: black;
-}
+@import "css/pages/profile.css";
+@import "css/components/card.css";
+@import "css/global.css";

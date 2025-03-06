@@ -1,0 +1,64 @@
+/* -------------------------------------------------------- */
+/* Global Styles */
+/* -------------------------------------------------------- */
+
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+}
+
+body {
+    font-family: 'Atma', cursive;
+    width: 100%;
+    margin: 0;
+}
+
+header,
+footer {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+    right: 0;
+    left: 0;
+}
+
+header {
+    border-bottom: black solid 1px;
+    top: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    bottom: 0;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid black;
+    bottom: 0;
+}
+
+.footer__nav__link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer__nav__icon {
+    margin-top: 10px;
+}
+
+main {
+    margin: 110px 10px;
+}
+
+.icon--active {
+    fill: black;
+}

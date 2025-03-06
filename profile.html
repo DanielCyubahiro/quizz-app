@@ -2,39 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Profile|Big Bang Theory Quiz App</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Atma&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
 </head>
 <body>
-<header class="header">
-    <h1 class="header__title">Quiz App</h1>
+<header>
+    <h1>Quiz App</h1>
 </header>
-<main class="main">
-    <section class="about-me__profile">
-        <i class="about-me__icon" data-lucide="circle-user-round"></i>
-        <h2 class="about-me__name">Max Doe</h2>
-    </section>
-    <div>
-        <h5>About me</h5>
-        <p class="about-me__description">
+<main>
+    <section class="profile__container">
+        <div class="profile">
+            <img class="profile__image" src="./assets/profile_photo.png" alt="Profile photo"/>
+            <h2 class="profile__name">Max Doe</h2>
+        </div>
+        <h3>About me</h3>
+        <p class="profile__description">
             I am a huge fan of The Big Bang Theory! I know the show inside and out, from Sheldon's quirky habits and
-            iconic "Bazinga!" catchphrase to the smallest details about each character's backstory. I can recite my
-            favorite lines, debate the best episodes, and even explain some of the science behind the jokes.
-        </p>
-    </div>
-    <section class="profile__button-container">
-        <button class="profile__button">
-            <i class="profile__icon" data-lucide="circle-help"></i>
+            iconic "Bazinga!" catchphrase to the smallest details about each character's backstory...</p>
+    </section>
+    <section class="shortcut__buttons__container">
+        <button class="shortcut__button">
+            <i class="shortcut__icon" data-lucide="circle-help"></i>
         </button>
-        <button class="profile__button">
-            <i class="profile__icon icon-active" data-lucide="bookmark"></i>
+        <button class="shortcut__button">
+            <i class="shortcut__icon icon--active" data-lucide="bookmark"></i>
         </button>
     </section>
-    <section>
-        <h5>Settings</h5>
-        <div class="settings-container">
+    <section class="settings__container">
+        <h3>Settings</h3>
+        <div class="settings">
             <div class="settings-name">Dark Mode</div>
             <i class="settings__icon" data-lucide="toggle-left"></i>
         </div>
@@ -42,13 +42,13 @@
 </main>
 <footer class="footer">
     <nav class="footer__nav">
-        <a class="footer__nav-link" href="index.html">
+        <a class="footer__nav__link" href="index.html">
             <i class="footer__nav__icon" data-lucide="home"></i>
         </a>
-        <a class="footer__nav-link" href="bookmarks.html">
+        <a class="footer__nav__link" href="bookmarks.html">
             <i class="footer__nav__icon" data-lucide="bookmark"></i>
         </a>
-        <a class="footer__nav-link" href="profile.html">
+        <a class="footer__nav__link" href="profile.html">
             <i class="footer__nav__icon icon-active" data-lucide="user"></i>
         </a>
     </nav>
