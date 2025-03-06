@@ -56,3 +56,24 @@
 .profile__icon {
     transform: scale(2);
 }
+
+h5 {
+    padding-left: 50px;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.settings-name {
+    font-size: 2.3rem;
+}
+
+.settings-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-items: center;
+    align-items: center;
+}
+
+.settings__icon {
+    transform: scale(4);
+}
