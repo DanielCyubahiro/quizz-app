@@ -1,7 +1,14 @@
 .header {
-    border-bottom: black solid 1px;
+    border-bottom: black solid 2px;
     display: flex;
     justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    height: 300px;
 }
 
 .header__title {
