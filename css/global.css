@@ -13,6 +13,7 @@
 body {
     font-family: 'Atma', cursive;
     width: 100%;
+    margin: 0;
 }
 
 header,
@@ -30,6 +31,10 @@ header {
     top: 0;
 }
 
+h1 {
+    text-align: center;
+}
+
 footer {
     bottom: 0;
 }
@@ -38,6 +43,7 @@ footer {
     display: flex;
     justify-content: space-around;
     border-top: 1px solid black;
+    bottom: 0;
 }
 
 .footer__nav__link {
@@ -45,16 +51,12 @@ footer {
     color: inherit;
 }
 
-h1 {
-    text-align: center;
-}
-
 .footer__nav__icon {
     margin-top: 10px;
-    padding: 10px;
-    width: 24px;
-    height: 24px;
-    transform: scale(2);
+}
+
+main {
+    margin: 130px 10px;
 }
 
 .icon--active {
