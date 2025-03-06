@@ -11,7 +11,7 @@
     display: grid;
     grid-template-rows: repeat(4, auto);
     gap: 16px;
-    padding: 20px;
+    /*padding: 20px;*/
     padding-top: 320px;
 }
 
@@ -48,6 +48,11 @@
     align-items: center;
 }
 
-.profile__question__button {
+.profile__button {
+    width: 50%;
+    height: 100px;
+}
 
+.profile__icon {
+    transform: scale(2);
 }
