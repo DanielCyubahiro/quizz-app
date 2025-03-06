@@ -11,7 +11,7 @@
     display: grid;
     grid-template-rows: repeat(4, auto);
     gap: 16px;
-    padding: 20px;
+    /*padding: 20px;*/
     padding-top: 320px;
 }
 
@@ -37,8 +37,8 @@
 }
 
 .about-me__description {
-    font-size: 0.9rem;
-    padding: 50px;
+    font-size: 1.7rem;
+    padding-left: 50px;
 }
 
 .profile__button-container {
@@ -48,6 +48,32 @@
     align-items: center;
 }
 
-.profile__question__button {
+.profile__button {
+    width: 50%;
+    height: 100px;
+}
 
+.profile__icon {
+    transform: scale(2);
+}
+
+h5 {
+    padding-left: 50px;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.settings-name {
+    font-size: 2.3rem;
+}
+
+.settings-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-items: center;
+    align-items: center;
+}
+
+.settings__icon {
+    transform: scale(4);
 }
