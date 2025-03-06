@@ -23,16 +23,6 @@
     transform: scale(2);
 }
 
-.card__bookmark-active {
-    position: absolute;
-    top: -10px;
-    right: 40px;
-    width: 30px;
-    height: 30px;
-    transform: scale(2);
-    fill: black;
-}
-
 .card__button {
     border: none;
     background: none;
