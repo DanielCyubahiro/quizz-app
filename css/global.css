@@ -66,3 +66,8 @@ main {
 .icon--active {
     fill: black;
 }
+
+.show {
+    font-weight: bold;
+    visibility: visible;
+}
