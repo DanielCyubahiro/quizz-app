@@ -1,12 +1,17 @@
 const answerButton = document.querySelector('[data-js="card-button"]');
-const cardAnswer = document.querySelector('[data-js="card-answer"]');
+const answerCard = document.querySelector('[data-js="card-answer"]');
 
-//Show the answer
-answerButton.addEventListener('click', () => {
-    cardAnswer.classList.toggle('show');
-})
 
-//Change the button message
+// answerButtons.forEach(button => {
+//     button.addEventListener('click', () => {
+//         cardAnswer.classList.toggle('show');
+//         button.textContent = button.textContent === 'Show Answer' ? 'Hide Answer' : 'Show Answer';
+//
+//     })
+// })
+
 answerButton.addEventListener('click', () => {
+    answerCard.classList.toggle('show');
     answerButton.textContent = answerButton.textContent === 'Show Answer' ? 'Hide Answer' : 'Show Answer';
+
 })
