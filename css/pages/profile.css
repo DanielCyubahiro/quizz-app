@@ -52,6 +52,6 @@
     align-items: center;
 }
 
-.settings__icon {
-    /*transform: scale(4);*/
+.dark-mode {
+    accent-color: black;
 }
