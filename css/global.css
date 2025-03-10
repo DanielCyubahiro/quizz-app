@@ -12,25 +12,27 @@
 
 body {
     font-family: 'Atma', cursive;
-    width: 100%;
-    margin: 0;
     background-color: #FFEFD5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 header,
 footer {
     position: fixed;
     width: 100%;
+    text-align: center;
     z-index: 1;
-    background-color: white;
-    right: 0;
-    left: 0;
+    background-color: whitesmoke;
 }
 
 header {
     border-bottom: black solid 1px;
     top: 0;
 }
+
 
 h1 {
     text-align: center;
@@ -57,7 +59,8 @@ footer {
 }
 
 main {
-    margin: 110px 10px;
+    margin: 110px 10px 40px 10px;
+    min-height: 80vh ;
 }
 
 .icon--active {
