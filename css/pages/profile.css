@@ -45,6 +45,7 @@
 .h3 {
     margin-bottom: 0;
 }
+
 .settings {
     display: grid;
     grid-template-columns: repeat(2, auto);
