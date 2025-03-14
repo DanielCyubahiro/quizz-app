@@ -12,3 +12,4 @@ answerButton.addEventListener('click', () => {
 bookmarkIcon.addEventListener('click', () => {
   bookmarkIcon.classList.toggle('icon--active');
 });
+
