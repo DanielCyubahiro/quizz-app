@@ -16,12 +16,12 @@ form.addEventListener('submit', (event) => {
     questionParagraph.textContent = newQuestion.value;
 
     const button = document.createElement('button');
-    button.classList.add('button', 'card__button');
+    button.classList.add('button', 'card__button',);
     button.setAttribute('data-js', 'card-button');
-    button.textContent = 'Show Answer';
+    button.textContent = 'Hide Answer';
 
     const answerParagraph = document.createElement('p');
-    answerParagraph.classList.add('card__answer');
+    answerParagraph.classList.add('card__answer', 'show');
     answerParagraph.setAttribute('data-js', 'card-answer');
     answerParagraph.textContent = newAnswer.value;
 
@@ -46,6 +46,7 @@ form.addEventListener('submit', (event) => {
     //Clear the inputs for a new question
     newQuestion.value = '';
     newAnswer.value = '';
+    newTags.value = '';
   }
 
 });
