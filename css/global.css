@@ -67,6 +67,11 @@ main {
     fill: black;
 }
 
+.icon--reverse {
+    fill: black;
+    color: white;
+}
+
 .show {
     font-weight: bold;
     visibility: visible;
