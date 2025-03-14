@@ -2,6 +2,8 @@ const newQuestion = document.querySelector('[data-js="new-question"]');
 const newAnswer = document.querySelector('[data-js="new-answer"]');
 const newTags = document.querySelector('[data-js="new-tags"]');
 const form = document.querySelector('[data-js="form"]');
+const questionCharacterCounter = document.querySelector('[data-js="question-character-counter"]');
+const answerCharacterCounter = document.querySelector('[data-js="answer-character-counter"]');
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
@@ -48,5 +50,14 @@ form.addEventListener('submit', (event) => {
     newAnswer.value = '';
     newTags.value = '';
   }
-
 });
+
+newQuestion.addEventListener('input', () => {
+  const characterLeft = 150 - newQuestion.value.length;
+  questionCharacterCounter.textContent = `${characterLeft} characters left`;
+})
+
+newAnswer.addEventListener('input', () => {
+  const characterLeft = 150 - newAnswer.value.length;
+  answerCharacterCounter.textContent = `${characterLeft} characters left`;
+})
