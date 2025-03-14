@@ -9,13 +9,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Atma&display=swap"
         rel="stylesheet">
   <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  <script src="./js/pages/profile.js" defer></script>
 </head>
-<body>
-  <header>
+<body class="dark">
+  <header class="dark">
     <h1>Quiz App</h1>
   </header>
   <main>
-    <section class="profile__container">
+    <section class="dark profile__container">
       <div class="profile">
         <img class="profile__image" src="./assets/profile_photo.png"
              alt="Profile photo"/>
@@ -28,26 +29,27 @@
         iconic "Bazinga!" catchphrase to the smallest details about each
         character's backstory...</p>
     </section>
-    <section class="shortcut__buttons__container">
-      <button class="shortcut__button">
+    <section class="dark shortcut__buttons__container">
+      <button class="shortcut__button dark">
         <i class="shortcut__icon" data-lucide="circle-help"></i>
       </button>
-      <button class="shortcut__button">
+      <button class="shortcut__button dark">
         <i class="shortcut__icon icon--active" data-lucide="bookmark"></i>
       </button>
     </section>
-    <section class="settings__container">
+    <section class="dark settings__container">
       <h3>Settings</h3>
       <div class="settings">
         <div class="settings-name">Dark Mode</div>
-        <label>
-          <input type="checkbox" class="dark-mode"/>
+        <label for="dark-mode-toggle">
+          <input type="checkbox" class="dark-mode" data-js="dark-mode"
+                 id="dark-mode-toggle"/>
           Toggle
         </label>
       </div>
     </section>
   </main>
-  <footer class="footer">
+  <footer class="footer dark">
     <nav class="footer__nav">
       <a class="footer__nav__link" href="index.html">
         <i class="footer__nav__icon" data-lucide="home"></i>

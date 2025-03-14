@@ -26,6 +26,7 @@ footer {
     text-align: center;
     z-index: 1;
     background-color: whitesmoke;
+    border-top: 1px solid black;
 }
 
 header {
@@ -45,7 +46,6 @@ footer {
 .footer__nav {
     display: flex;
     justify-content: space-around;
-    border-top: 1px solid black;
     bottom: 0;
 }
 
@@ -84,4 +84,11 @@ main {
     font-family: 'Atma', cursive;
     font-size: 1rem;
     cursor: pointer;
+}
+
+
+.dark-mode{
+    background-color: #282828;
+    color: #FFEFD5;
+    border-color: #FFEFD5;
 }
