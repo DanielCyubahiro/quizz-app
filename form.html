@@ -16,6 +16,29 @@
     <h1>Quiz App</h1>
   </header>
   <main>
+    <form>
+      <fieldset>
+        <legend>New Question</legend>
+        <div>
+          <label for="question">Your question:</label>
+          <br>
+          <textarea class="form__fields" id="question" name="question" rows="4"
+                    cols="50" maxlength="150"></textarea>
+        </div>
+        <div>
+          <label for="answer">Your answer:</label>
+          <br>
+          <textarea class="form__fields" id="answer" name="answer" rows="4"
+                    cols="50" maxlength="150"></textarea>
+        </div>
+        <div>
+          <label for="tags">Tag:</label>
+          <br>
+          <input class="form__fields" id="tags" name="tags" type="text">
+        </div>
+      </fieldset>
+      <button type="submit" class="button submit__button">Submit</button>
+    </form>
   </main>
   <footer>
     <nav class="footer__nav">
@@ -26,7 +49,8 @@
         <i class="footer__nav__icon" data-lucide="bookmark"></i>
       </a>
       <a class="footer__nav__link" href="form.html">
-        <i class="footer__nav__icon icon--reverse" data-lucide="circle-plus"></i>
+        <i class="footer__nav__icon icon--reverse"
+           data-lucide="circle-plus"></i>
       </a>
       <a class="footer__nav__link" href="profile.html">
         <i class="footer__nav__icon" data-lucide="user"></i>

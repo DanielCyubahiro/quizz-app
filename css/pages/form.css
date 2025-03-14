@@ -1,0 +1,21 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+fieldset,
+legend {
+    border: none;
+}
+legend {
+    display: none;
+}
+
+.form__fields {
+    width: 100%;
+}
+
+.submit__button{
+    margin-top: 10px;
+}
