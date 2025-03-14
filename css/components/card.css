@@ -22,8 +22,5 @@
 }
 
 .card__button {
-    border: 1px solid black;
-    background-color: rgb(238, 238, 238);
     transform: scale(0.8);
-    padding: 5px 20px;
 }
