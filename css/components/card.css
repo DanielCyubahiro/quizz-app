@@ -36,7 +36,6 @@
 }
 
 .card__icon:hover,
-.card__button:hover,
 .card__tags__item:hover {
     cursor: pointer;
 }

@@ -83,5 +83,5 @@ main {
     padding: 5px 20px;
     font-family: 'Atma', cursive;
     font-size: 1rem;
-
+    cursor: pointer;
 }

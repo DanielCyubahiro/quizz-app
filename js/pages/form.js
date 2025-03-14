@@ -1,5 +1,6 @@
 const newQuestion = document.querySelector('[data-js="new-question"]');
 const newAnswer = document.querySelector('[data-js="new-answer"]');
+const newTags = document.querySelector('[data-js="new-tags"]');
 const form = document.querySelector('[data-js="form"]');
 
 form.addEventListener('submit', (event) => {
@@ -27,10 +28,18 @@ form.addEventListener('submit', (event) => {
     const icon = document.createElement('i');
     icon.classList.add('card__icon', 'icon--active');
 
-    section.appendChild(questionParagraph);
-    section.appendChild(button);
-    section.appendChild(answerParagraph);
-    section.appendChild(icon);
+    const tagsList = document.createElement('ul');
+    tagsList.classList.add('card__tags__list');
+
+    //Handle tags
+    newTags.value.split(',').forEach(tag => {
+      const tagElement = document.createElement('li');
+      tagElement.classList.add('card__tags__item');
+      tagElement.textContent = `#${tag}`;
+      tagsList.appendChild(tagElement);
+    });
+
+    section.append(questionParagraph, button, answerParagraph, icon, tagsList);
 
     form.insertAdjacentElement('afterend', section);
 
