@@ -21,9 +21,21 @@
     transform: scale(1.3);
 }
 
+.card__tags__list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.card__tags__item {
+    margin-left: 0.5rem;
+}
+
 .card__button {
-    border: 1px solid black;
-    background-color: rgb(238, 238, 238);
     transform: scale(0.8);
-    padding: 5px 20px;
+}
+
+.card__icon:hover,
+.card__tags__item:hover {
+    cursor: pointer;
 }

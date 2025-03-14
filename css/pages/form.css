@@ -1,0 +1,30 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 30px;
+}
+
+fieldset,
+legend {
+    border: none;
+}
+legend {
+    display: none;
+}
+
+.form__fields {
+    width: 100%;
+}
+
+.submit__button{
+    margin-top: 10px;
+}
+
+.character__counter {
+    margin-top: 0;
+    text-align: right;
+    font-size: 0.9rem;
+    color: lightslategray;
+}
