@@ -52,6 +52,6 @@ This section allows you to view and manage your profile and settings.
 Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ## 📩 Contact
-- **Daniel** – cyubahirodaniel@gmail.com
+- **Email** – cyubahirodaniel@gmail.com
 - **GitHub** – [DanielCyubahiro](https://github.com/DanielCyubahiro)
 
